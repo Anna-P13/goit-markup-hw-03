@@ -4,8 +4,45 @@ body {
     color: #434455;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.header-start {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+}
+
+.header-start-nav {
+    display: flex;
+    align-items: center;
 }
 
 .webstudio {
@@ -18,6 +55,12 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
 
+
+}
+
+.logo-web {
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .studio {
@@ -31,6 +74,12 @@ ul {
     text-decoration: none;
 }
 
+.about-us {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .about-us .link {
     font-weight: 500;
     font-size: 16px;
@@ -38,6 +87,8 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+    padding: 24px 0;
+    display: block;
 }
 
 .about-us .link:hover {
@@ -56,8 +107,20 @@ ul {
     color: #404bbf;
 }
 
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts-link {
+    display: block;
+    padding: 24px, 0;
+}
+
 .info {
     font-style: normal;
+    margin-left: auto;
 }
 
 .info .link {
@@ -86,6 +149,14 @@ ul {
     font-style: normal;
 }
 
+.hero-container {
+    display: block;
+    align-items: center;
+}
+
+.section-one {
+    height: 600px;
+}
 
 .effect {
     font-weight: 700;
@@ -94,7 +165,20 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    line-height: 1.07
+    line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto;
+    padding-top: 188px;
+    padding-bottom: 48px;
+
+}
+
+.hero-button {
+    max-width: 169px;
+    height: 56px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
 }
 
 button {
@@ -105,6 +189,8 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    border-radius: 4px;
+
 
 }
 
@@ -130,9 +216,26 @@ button:focus {
 
 }
 
+.button-link {
+    min-width: 169px;
+}
+
 .section-one {
     background: #2e2f42;
 
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .text-section-main-goals {
