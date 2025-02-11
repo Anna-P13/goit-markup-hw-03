@@ -238,6 +238,18 @@ button:focus {
     overflow: hidden;
 }
 
+.section-goals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 120px 0;
+    margin: 0 auto;
+}
+
+.goals-calc {
+    width: calc((100% - 72px) / 4);
+}
+
 .text-section-main-goals {
     font-weight: 700;
     font-size: 36px;
