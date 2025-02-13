@@ -213,6 +213,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+
 }
 
 button:hover {
@@ -295,11 +296,13 @@ button:focus {
 }
 
 
-.team {
+.section-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: #f4f4fd;
 }
 
-.team-section {
+.team-main {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -307,8 +310,9 @@ button:focus {
     color: #2e2f42;
     text-transform: capitalize;
     text-align: center;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    padding-bottom: 78px;
+
+
 }
 
 .section-goals-two {
@@ -318,7 +322,6 @@ button:focus {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    padding-bottom: 120px;
 }
 
 
