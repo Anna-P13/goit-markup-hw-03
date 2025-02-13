@@ -8,17 +8,20 @@ body {
     box-sizing: border-box;
 }
 
+img {
+    display: block;
+}
 
 .container {
     max-width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 ul {
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -29,7 +32,7 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .header-start {
@@ -152,7 +155,11 @@ p {
     font-style: normal;
 }
 
-.section .hero-container {
+.section {
+    background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,16 +171,8 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0;
+    margin: 0 auto;
     background: #2e2f42;
-}
-
-.hero-container {
-
-    background: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    margin: 0;
 }
 
 
@@ -196,24 +195,24 @@ p {
 .hero-button {
     display: block;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 16px;
     padding-bottom: 16px;
+    height: 56px;
+    border: none;
+    min-width: 169px;
+    background: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 button {
-    background: #4d5ae5;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    cursor: pointer;
-    border-radius: 4px;
-    width: 169px;
-
-
-
 }
 
 button:hover {
@@ -289,7 +288,7 @@ button:focus {
 
 
 .container-team {
-    margin: 0;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 120px;
