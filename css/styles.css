@@ -167,14 +167,6 @@ p {
     align-items: center;
 }
 
-.section-one {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-    background: #2e2f42;
-}
 
 
 
@@ -300,6 +292,9 @@ button:focus {
 .section-team {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.team-back {
     background: #f4f4fd;
 }
 
@@ -312,6 +307,7 @@ button:focus {
     text-transform: capitalize;
     text-align: center;
     padding-bottom: 78px;
+
 
 
 }
