@@ -442,9 +442,6 @@ button:focus {
     background: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
-    unicode-bidi: isolate;
-    display: block;
-
 }
 
 .webstudio-end {
@@ -476,5 +473,6 @@ button:focus {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-left: 0;
+    margin-left: 0px;
+
 }
