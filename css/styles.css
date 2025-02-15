@@ -355,7 +355,6 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
     margin-bottom: 8px;
     text-align: center;
 }
@@ -366,7 +365,6 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
     text-align: center;
 
 }
